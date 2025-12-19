@@ -1,3 +1,5 @@
 {
-  "src/**/*.ts": ["npm run ci:format"]
+  "src/**/*.ts": ["npm run ci:format"],
+  "src/**/*.css": ["npm run stylelint"],
+  "src/**/*.html": ["npm run format"]
 }
