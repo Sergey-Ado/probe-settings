@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "noImplicitAny": true
+  }
+}
