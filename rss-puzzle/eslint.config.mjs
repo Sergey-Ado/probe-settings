@@ -36,6 +36,13 @@ const typescriptConfig = [
   ...configs.base.typescript,
   // Strict TypeScript Config
   rules.typescript.typescriptEslintStrict,
+  {
+    rules: {
+      '@typescript-eslint/explicit-function-return-type': 'error',
+      '@typescript-eslint/explicit-member-accessibility': 'error',
+      'max-lines-per-function': ['error', 40],
+    },
+  },
 ];
 
 const prettierConfig = [
