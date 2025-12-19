@@ -55,6 +55,7 @@ const prettierConfig = [
         'error',
         {
           singleQuote: true,
+          endOfLine: 'auto',
         },
       ],
     },
