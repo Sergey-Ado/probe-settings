@@ -12,7 +12,8 @@
     "lint": "npx eslint src",
     "prepare": "cd .. && husky rss-puzzle/.husky",
     "stylelint": "npx stylelint src/**/*.css",
-    "stylelint:fix": "npx stylelint src/**/*.css --fix"
+    "stylelint:fix": "npx stylelint src/**/*.css --fix",
+    "deploy": "npm run build && gh-pages -d dist -e rss-puzzle"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
