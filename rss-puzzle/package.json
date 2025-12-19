@@ -13,6 +13,8 @@
     "prepare": "cd .. && husky rss-puzzle/.husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
     "@eslint/compat": "^2.0.0",
     "@eslint/js": "^9.39.2",
     "@stylistic/eslint-plugin": "^3.1.0",
